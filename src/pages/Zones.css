@@ -1,0 +1,186 @@
+/* Zones Grid */
+.zones-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+.zone-card {
+  background: var(--uos-white);
+  border: 1px solid var(--uos-grey);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: all var(--transition);
+}
+
+.zone-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.zone-highlight {
+  border-color: var(--uos-orange);
+  box-shadow: 0 0 0 1px var(--uos-orange);
+}
+
+.zone-card-header {
+  padding: 24px 24px 16px;
+}
+
+.zone-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
+
+.zone-card-header h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.zone-campus-tag {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--uos-orange);
+  background: rgba(245, 124, 0, 0.08);
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.zone-card-body {
+  padding: 0 24px 24px;
+}
+
+.zone-info-group {
+  margin-bottom: 16px;
+}
+
+.zone-info-group:last-child {
+  margin-bottom: 0;
+}
+
+.zone-info-group h4 {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.zone-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.zone-tag {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  background: var(--uos-grey-light);
+  border-radius: 6px;
+  color: var(--text-primary);
+}
+
+.zone-tag-station {
+  background: rgba(255, 215, 0, 0.12);
+  color: #8B6914;
+}
+
+/* Zone Pricing */
+.zone-pricing-section {
+  margin-bottom: 64px;
+}
+
+.zone-pricing-table-wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--uos-grey);
+  border-radius: var(--radius-md);
+}
+
+.zone-pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.zone-pricing-table thead {
+  background: var(--uos-navy);
+  color: var(--uos-white);
+}
+
+.zone-pricing-table th {
+  text-align: left;
+  padding: 16px 28px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.zone-pricing-table td {
+  padding: 16px 28px;
+  font-size: 0.95rem;
+  border-top: 1px solid var(--uos-grey);
+  font-weight: 600;
+}
+
+.zone-label-cell {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.zone-pricing-table tbody tr:hover {
+  background: var(--uos-grey-light);
+}
+
+/* Tips */
+.zone-tips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.zone-tip-card {
+  background: var(--uos-grey-light);
+  border: 1px solid var(--uos-grey);
+  border-radius: var(--radius-md);
+  padding: 28px;
+}
+
+.zone-tip-icon {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.zone-tip-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.zone-tip-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .zones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .zone-tips {
+    grid-template-columns: 1fr;
+  }
+
+  .zone-pricing-table th,
+  .zone-pricing-table td {
+    padding: 12px 16px;
+  }
+}
