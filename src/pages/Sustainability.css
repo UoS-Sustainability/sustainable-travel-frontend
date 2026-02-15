@@ -145,7 +145,14 @@
 
 /* Pledge */
 .pledge-card {
-  background: linear-gradient(135deg, var(--uos-navy) 0%, var(--uos-navy-light) 100%);
+  background: linear-gradient(
+  /* Original gradient */  
+  /* 135deg, var(--uos-navy) 0%, var(--uos-navy-light) 100% */
+
+  /*Best gradient attempt*/
+    135deg, #1B5E20 0%, #2E7D32 100%
+    /* rgba(50, 50, 50, 0.88) 100% */
+  );
   border-radius: var(--radius-lg);
   padding: 48px;
   text-align: center;

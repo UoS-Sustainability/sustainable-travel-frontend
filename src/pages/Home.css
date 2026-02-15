@@ -16,12 +16,33 @@
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    180deg,
-    rgba(13, 27, 62, 0.82) 0%,
+  180deg,
+  /*Best gradient attempt*/
+    rgba(50, 50, 50, 0.82) 0%,
+    rgba(50, 50, 50, 0.72) 50%,
+    rgba(0, 105, 250, 0.65) 90%
+    /* rgba(50, 50, 50, 0.88) 100% */
+
+  /* 160deg,
+    rgba(45, 45, 55, 0.88) 0%,
+    rgba(0, 85, 170, 0.78) 100% */
+
+    /* 180deg,
+    rgba(60, 60, 60, 0.75) 0%,
+    rgba(0, 105, 250, 0.65) 100% */
+
+    /*Newest gradient attempt*/
+    /* rgba(0, 45, 95, 0.90) 0%,
+    rgba(0, 69, 139, 0.82) 55%,
+    rgba(0, 105, 250, 0.70) 100% */
+
+    /*Original gradient*/
+    /* rgba(13, 27, 62, 0.82) 0%,
     rgba(13, 27, 62, 0.72) 50%,
-    rgba(13, 27, 62, 0.88) 100%
+    rgba(13, 27, 62, 0.88) 100% */
   );
   z-index: 1;
+  clip-path: inherit;
 }
 
 .hero > .container {
@@ -478,7 +499,16 @@
 }
 
 .cta-card {
-  background: linear-gradient(135deg, var(--uos-navy) 0%, var(--uos-navy-light) 100%);
+  background: linear-gradient(
+    /* Original gradient */
+    /*135deg, var(--uos-navy) 0%, var(--uos-navy-light) 100% */
+
+    /*Best gradient attempt*/
+    rgba(50, 50, 50, 0.82) 0%,
+    rgba(50, 50, 50, 0.72) 50%,
+    rgba(0, 105, 250, 0.65) 90%
+    /* rgba(50, 50, 50, 0.88) 100% */
+    );
   border-radius: var(--radius-lg);
   padding: 64px;
   text-align: center;

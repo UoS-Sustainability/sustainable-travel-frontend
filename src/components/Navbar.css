@@ -23,7 +23,7 @@
 .navbar-logo {
   width: 40px;
   height: 40px;
-  background: var(--uos-navy);
+  /* background: var(--uos-navy); */
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
 }
 
 .logo-icon {
-  color: var(--uos-orange);
+  /* color: var(--uos-orange); */
   font-weight: 800;
   font-size: 0.75rem;
   letter-spacing: 0.5px;

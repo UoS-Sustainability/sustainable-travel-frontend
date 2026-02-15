@@ -5,9 +5,12 @@
   --uos-orange: #F57C00;
   --uos-orange-dark: #E65100;
   --uos-orange-light: #FF9800;
-  --uos-navy: #0D1B3E;
-  --uos-navy-light: #152244;
-  --uos-white: #FFFFFF;
+  /* --uos-navy: #0D1B3E; */
+  --uos-navy: #323232;
+  /* --uos-navy-light: #152244; */
+  --uos-navy-light: #0069FA;
+  /* --uos-white: #FFFFFF; */
+  --uos-white: #f3f8fa;
   --uos-grey-light: #F5F5F7;
   --uos-grey: #E0E0E0;
   --uos-grey-mid: #888888;

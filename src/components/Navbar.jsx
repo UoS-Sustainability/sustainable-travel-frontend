@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+import UosLogo from '/images/apple-touch-icon.png';
 
 const navLinks = [
   { path: '/', label: 'Home' },
@@ -17,8 +18,15 @@ export default function Navbar() {
     <nav className="navbar" role="navigation" aria-label="Main navigation">
       <div className="container navbar-inner">
         <NavLink to="/" className="navbar-brand" onClick={() => setMenuOpen(false)}>
-          <div className="navbar-logo">
+          {/* <div className="navbar-logo">
             <span className="logo-icon">UoS</span>
+          </div> */}
+          <div className="navbar-logo">
+            <img 
+              src={UosLogo} 
+              alt="Logo" 
+              className="logo-icon-1"
+            />
           </div>
           <div className="navbar-brand-text">
             <span className="brand-title">Sustainable Travel Hub</span>
