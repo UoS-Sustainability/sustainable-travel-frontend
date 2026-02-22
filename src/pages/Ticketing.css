@@ -1,12 +1,12 @@
 /* Page Header */
 .page-header {
-  /* background: var(--uos-navy); */
-  background: linear-gradient(
+  background: var(--uos-navy);
+  /* background: linear-gradient(
   180deg,
   /*Best gradient attempt*/
-    rgba(50, 50, 50, 0.82) 0%,
+    /* rgba(50, 50, 50, 0.82) 0%,
     rgba(50, 50, 50, 0.72) 50%,
-    rgba(0, 105, 250, 0.65) 90%
+    rgba(0, 105, 250, 0.65) 90% */
     /* rgba(50, 50, 50, 0.88) 100% */
 
     /* Ligher blue attempt */
@@ -27,7 +27,7 @@
     /* rgba(13, 27, 62, 0.82) 0%,
     rgba(13, 27, 62, 0.72) 50%,
     rgba(13, 27, 62, 0.88) 100% */
-  );
+  /* );  */
   z-index: 1;
   clip-path: inherit;
   padding: 64px 0 48px;
@@ -42,7 +42,8 @@
 
 .page-desc {
   font-size: 1.05rem;
-  color: rgba(255,255,255,0.65);
+  /* color: rgba(255,255,255,0.65); */
+  color: var(--uos-grey);
   max-width: 600px;
   line-height: 1.7;
 }
