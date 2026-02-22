@@ -17,6 +17,9 @@
   --uos-grey-dark: #555555;
   --uos-green: #2E7D32;
   --uos-green-light: #E8F5E9;
+  --uos-blue: #0069FAA6;
+  /* quick links border color try for uos-blue-grey*/
+  /* --uos-blue-grey: #3A4F87; */
 
   /* Semantic */
   --bg-primary: var(--uos-white);

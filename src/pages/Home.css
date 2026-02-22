@@ -16,11 +16,12 @@
   position: absolute;
   inset: 0;
   background: linear-gradient(
-  180deg,
+  /* 180deg,
   /*Best gradient attempt*/
-    rgba(50, 50, 50, 0.82) 0%,
+    /*rgba(50, 50, 50, 0.82) 0%,
     rgba(50, 50, 50, 0.72) 50%,
-    rgba(0, 105, 250, 0.65) 90%
+    rgba(0, 105, 250, 0.65) 90% */
+    
     /* rgba(50, 50, 50, 0.88) 100% */
 
   /* 160deg,
@@ -87,7 +88,8 @@
 
 .hero-desc {
   font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.65);
+  /* color: rgba(255, 255, 255, 0.65); */
+  color: var(--uos-grey-light);
   line-height: 1.7;
   margin-bottom: 0;
   max-width: 480px;
@@ -307,7 +309,12 @@
 
 .quick-link-card {
   background: var(--uos-white);
-  border: 1px solid var(--uos-grey);
+  /* border: 1px solid var(--uos-grey); */
+  border: 1px solid var(
+    /* rgba(50, 50, 50, 0.82) 0%, */
+    /* rgba(50, 50, 50, 0.72) 50%, */
+    --uos-blue 
+  );
   border-radius: var(--radius-md);
   padding: 28px 24px;
   transition: all var(--transition);
@@ -362,7 +369,8 @@
 
 .operator-card {
   background: var(--uos-white);
-  border: 1px solid var(--uos-grey);
+  /* border: 1px solid var(--uos-grey); */
+  border: 1px solid var(--uos-blue);
   border-radius: var(--radius-md);
   padding: 28px;
   transition: all var(--transition);
@@ -499,16 +507,17 @@
 }
 
 .cta-card {
-  background: linear-gradient(
+  background: var(--uos-navy);
+  /* background: linear-gradient( */
     /* Original gradient */
     /*135deg, var(--uos-navy) 0%, var(--uos-navy-light) 100% */
 
     /*Best gradient attempt*/
-    rgba(50, 50, 50, 0.82) 0%,
+    /* rgba(50, 50, 50, 0.82) 0%,
     rgba(50, 50, 50, 0.72) 50%,
-    rgba(0, 105, 250, 0.65) 90%
-    /* rgba(50, 50, 50, 0.88) 100% */
-    );
+    /* rgba(0, 105, 250, 0.65) 150% */
+    /* rgba(50, 50, 50, 0.88) 100% */ 
+    /* ); */
   border-radius: var(--radius-lg);
   padding: 64px;
   text-align: center;

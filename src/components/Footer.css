@@ -1,5 +1,36 @@
 .footer {
+  /*Original background*/
   background: var(--uos-navy);
+  background: linear-gradient(
+  /* 180deg, */
+  /*Best gradient attempt*/
+    /* rgba(50, 50, 50, 0.82) 0%,
+    rgba(50, 50, 50, 0.72) 50%,
+    /* rgba(0, 105, 250, 0.65) 150% */
+    /* rgba(50, 50, 50, 0.88) 100% */ 
+    
+    /* rgba(50, 50, 50, 0.88) 100% */
+
+  /* 160deg,
+    rgba(45, 45, 55, 0.88) 0%,
+    rgba(0, 85, 170, 0.78) 100% */
+
+    /* 180deg,
+    rgba(60, 60, 60, 0.75) 0%,
+    rgba(0, 105, 250, 0.65) 100% */
+
+    /*Newest gradient attempt*/
+    /* rgba(0, 45, 95, 0.90) 0%,
+    rgba(0, 69, 139, 0.82) 55%,
+    rgba(0, 105, 250, 0.70) 100% */
+
+    /*Original gradient*/
+    /* rgba(13, 27, 62, 0.82) 0%,
+    rgba(13, 27, 62, 0.72) 50%,
+    rgba(13, 27, 62, 0.88) 100% */
+  );
+  z-index: 1;
+  clip-path: inherit;
   color: var(--uos-white);
   padding: 64px 0 0;
   margin-top: auto;
@@ -21,7 +52,13 @@
 .footer-logo {
   width: 40px;
   height: 40px;
-  background: var(--uos-orange);
+  
+  /* background: var(--uos-orange); */
+
+  /*Newly added background for logo*/
+  background: var(--uos-white);
+  border-bottom: 1px solid var(--uos-grey);
+
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -42,12 +79,12 @@
 
 .footer-brand p {
   font-size: 0.72rem;
-  color: var(--uos-grey-mid);
+  color: var(--uos-grey);
 }
 
 .footer-desc {
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.6);
+  color: var(--uos-grey);
   line-height: 1.6;
 }
 
@@ -63,7 +100,7 @@
 .footer-col a {
   display: block;
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.75);
+  /* color: rgba(255,255,255,0.75); */
   padding: 4px 0;
   transition: color var(--transition);
 }
@@ -81,7 +118,7 @@
 
 .footer-bottom p {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.4);
+  /* color: rgba(255,255,255,0.4); */
 }
 
 @media (max-width: 768px) {

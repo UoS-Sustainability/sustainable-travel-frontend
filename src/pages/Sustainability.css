@@ -53,7 +53,8 @@
 }
 
 .tip-card {
-  background: var(--uos-white);
+  /* background: var(--uos-white); */
+  background: var(--uos-green-light);
   border: 1px solid var(--uos-grey);
   border-radius: var(--radius-md);
   padding: 28px;
@@ -134,7 +135,8 @@
 .why-stat-number {
   font-size: 1.8rem;
   font-weight: 800;
-  color: var(--uos-orange);
+  /* color: var(--uos-orange); */
+  color: var(--uos-green);
 }
 
 .why-stat-text {

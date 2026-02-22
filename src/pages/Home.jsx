@@ -112,7 +112,7 @@ export default function Home() {
       {/* Hero */}
       <section className="hero">
         <div className="container hero-center">
-          <span className="hero-badge">University of Sunderland</span>
+          {/* <span className="hero-badge">University of Sunderland</span> */}
           <h1 className="hero-title">
             Where are you <span className="hero-accent">travelling</span> today?
           </h1>

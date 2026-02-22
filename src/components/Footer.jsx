@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import './Footer.css';
+import UosLogo from '/images/apple-touch-icon.png';
 
 export default function Footer() {
   return (
@@ -9,7 +10,12 @@ export default function Footer() {
           <div className="footer-col">
             <div className="footer-brand">
               <div className="footer-logo">
-                <span>UoS</span>
+                {/* <span>UoS</span> */}
+                <img 
+                  src={UosLogo} 
+                  alt="Logo" 
+                  className="logo-icon-1"
+                />
               </div>
               <div>
                 <h3>Sustainable Travel Hub</h3>
