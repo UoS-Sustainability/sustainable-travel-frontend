@@ -16,8 +16,7 @@ export default function Sustainability() {
             are within 15 minutes of the city centre, making walking practical and convenient.
           </p>
           <p>
-            Choosing to walk reduces congestion, improves air quality, and supports your physical health
-            — all while producing zero emissions.
+            Choosing to walk reduces congestion, improves air quality, and supports your physical health, all while producing zero emissions.
           </p>
         </>
       )
