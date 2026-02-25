@@ -1,0 +1,76 @@
+.tipmodal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(13, 27, 62, 0.55);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  z-index: 9999;
+}
+
+.tipmodal {
+  width: min(720px, 100%);
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border: 1px solid rgba(0, 105, 250, 0.14);
+}
+
+.tipmodal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 18px 12px;
+  background: linear-gradient(
+    180deg,
+    rgba(50, 50, 50, 0.06) 0%,
+    rgba(0, 105, 250, 0.08) 100%
+  );
+}
+
+.tipmodal-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0d1b3e;
+}
+
+.tipmodal-close {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 105, 250, 0.18);
+  background: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.tipmodal-body {
+  padding: 14px 18px 4px;
+  color: rgba(13, 27, 62, 0.85);
+  line-height: 1.65;
+  font-size: 0.98rem;
+}
+
+.tipmodal-body p {
+  margin: 0 0 12px;
+}
+
+.tipmodal-footer {
+  padding: 12px 18px 18px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tipmodal-btn {
+  border: none;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: #0069fa;
+}

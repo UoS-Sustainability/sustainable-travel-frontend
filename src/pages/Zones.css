@@ -8,7 +8,8 @@
 
 .zone-card {
   background: var(--uos-white);
-  border: 1px solid var(--uos-grey);
+  /* border: 1px solid var(--uos-grey); */
+  border: 1px solid var(--uos-blue);
   border-radius: var(--radius-md);
   overflow: hidden;
   transition: all var(--transition);

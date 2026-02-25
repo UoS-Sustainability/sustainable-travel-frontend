@@ -66,6 +66,19 @@
   transform: translateY(-2px);
 }
 
+.tip-card-clickable {
+  cursor: pointer;
+}
+
+.tip-card-clickable:focus {
+  outline: 3px solid rgba(0, 105, 250, 0.25);
+  outline-offset: 2px;
+}
+
+.tip-card-clickable:hover {
+  border-color: rgba(0, 105, 250, 0.35);
+}
+
 .tip-icon {
   font-size: 2rem;
   display: block;
