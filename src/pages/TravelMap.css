@@ -1,4 +1,3 @@
-/* Legend */
 .map-legend {
   display: flex;
   flex-wrap: wrap;
@@ -33,7 +32,6 @@
   color: var(--text-secondary);
 }
 
-/* Map */
 .map-wrapper {
   height: 520px;
   border-radius: var(--radius-md);
@@ -42,13 +40,11 @@
   box-shadow: var(--shadow-md);
 }
 
-/* Custom marker */
 .custom-marker {
   background: none !important;
   border: none !important;
 }
 
-/* Popup */
 .map-popup h3 {
   font-size: 0.95rem;
   font-weight: 700;
@@ -78,7 +74,6 @@
   margin-bottom: 2px;
 }
 
-/* Campus location cards */
 .map-locations-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

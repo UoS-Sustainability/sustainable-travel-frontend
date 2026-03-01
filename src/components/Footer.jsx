@@ -10,7 +10,6 @@ export default function Footer() {
           <div className="footer-col">
             <div className="footer-brand">
               <div className="footer-logo">
-                {/* <span>UoS</span> */}
                 <img 
                   src={UosLogo} 
                   alt="Logo" 

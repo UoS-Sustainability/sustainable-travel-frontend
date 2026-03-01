@@ -1,4 +1,3 @@
-/* ===== Hero ===== */
 .hero {
   position: relative;
   background: url('/images/image1.webp') center center / cover no-repeat;
@@ -21,23 +20,8 @@
     /*rgba(50, 50, 50, 0.82) 0%,
     rgba(50, 50, 50, 0.72) 50%,
     rgba(0, 105, 250, 0.65) 90% */
-    
-    /* rgba(50, 50, 50, 0.88) 100% */
 
-  /* 160deg,
-    rgba(45, 45, 55, 0.88) 0%,
-    rgba(0, 85, 170, 0.78) 100% */
-
-    /* 180deg,
-    rgba(60, 60, 60, 0.75) 0%,
-    rgba(0, 105, 250, 0.65) 100% */
-
-    /*Newest gradient attempt*/
-    /* rgba(0, 45, 95, 0.90) 0%,
-    rgba(0, 69, 139, 0.82) 55%,
-    rgba(0, 105, 250, 0.70) 100% */
-
-    /*Original gradient*/
+    /*First gradient*/
     /* rgba(13, 27, 62, 0.82) 0%,
     rgba(13, 27, 62, 0.72) 50%,
     rgba(13, 27, 62, 0.88) 100% */
@@ -95,7 +79,6 @@
   max-width: 480px;
 }
 
-/* ===== Search Panel — straddles hero/content boundary ===== */
 .search-panel-wrapper {
   position: relative;
   z-index: 10;
@@ -111,7 +94,6 @@
   border: 1px solid var(--uos-grey);
 }
 
-/* Search Bar */
 .search-bar {
   position: relative;
   display: flex;
@@ -171,7 +153,6 @@
   transform: scale(1.02);
 }
 
-/* ===== Filter Row (Dropdowns) ===== */
 .filter-row {
   display: flex;
   align-items: flex-end;
@@ -264,7 +245,6 @@
   color: var(--uos-orange-dark);
 }
 
-/* ===== Buttons ===== */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -296,7 +276,6 @@
   transform: translateY(-1px);
 }
 
-/* ===== Quick Links ===== */
 .quick-links-section {
   padding: 48px 0 64px;
 }
@@ -360,7 +339,6 @@
   transform: translateX(4px);
 }
 
-/* ===== Operators ===== */
 .operators-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -410,7 +388,6 @@
   margin-bottom: 16px;
 }
 
-/* Ticket Preview (inside operator card) */
 .operator-tickets-preview {
   background: var(--uos-grey-light);
   border-radius: var(--radius-sm);
@@ -473,7 +450,6 @@
   color: var(--uos-orange-dark);
 }
 
-/* No results */
 .no-results {
   text-align: center;
   padding: 48px 24px;
@@ -501,15 +477,14 @@
   color: var(--uos-orange-dark);
 }
 
-/* ===== CTA ===== */
 .cta-section {
   padding-bottom: 96px;
 }
 
 .cta-card {
-  background: var(--uos-navy);
+  background: var(--uos-grey-black);
   /* background: linear-gradient( */
-    /* Original gradient */
+    /* First gradient */
     /*135deg, var(--uos-navy) 0%, var(--uos-navy-light) 100% */
 
     /*Best gradient attempt*/
@@ -538,7 +513,7 @@
   line-height: 1.7;
 }
 
-/* ===== Responsive ===== */
+/* For mobile and small screens */
 @media (max-width: 1024px) {
   .hero-title {
     font-size: 2.4rem;

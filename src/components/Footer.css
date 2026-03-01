@@ -1,6 +1,5 @@
 .footer {
-  /*Original background*/
-  background: var(--uos-navy);
+  background: var(--uos-grey-black);
   background: linear-gradient(
   /* 180deg, */
   /*Best gradient attempt*/
@@ -8,23 +7,8 @@
     rgba(50, 50, 50, 0.72) 50%,
     /* rgba(0, 105, 250, 0.65) 150% */
     /* rgba(50, 50, 50, 0.88) 100% */ 
-    
-    /* rgba(50, 50, 50, 0.88) 100% */
 
-  /* 160deg,
-    rgba(45, 45, 55, 0.88) 0%,
-    rgba(0, 85, 170, 0.78) 100% */
-
-    /* 180deg,
-    rgba(60, 60, 60, 0.75) 0%,
-    rgba(0, 105, 250, 0.65) 100% */
-
-    /*Newest gradient attempt*/
-    /* rgba(0, 45, 95, 0.90) 0%,
-    rgba(0, 69, 139, 0.82) 55%,
-    rgba(0, 105, 250, 0.70) 100% */
-
-    /*Original gradient*/
+    /*First gradient*/
     /* rgba(13, 27, 62, 0.82) 0%,
     rgba(13, 27, 62, 0.72) 50%,
     rgba(13, 27, 62, 0.88) 100% */

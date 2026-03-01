@@ -1,9 +1,7 @@
-/* Sustainability Header */
 .sustainability-header {
   background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%);
 }
 
-/* Impact Banner */
 .impact-banner {
   display: flex;
   align-items: center;
@@ -44,7 +42,6 @@
   background: #C8E6C9;
 }
 
-/* Tips Grid */
 .tips-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -112,7 +109,6 @@
   border-radius: 12px;
 }
 
-/* Why Section */
 .why-section {
   background: var(--uos-grey-light);
   border-radius: var(--radius-lg);
@@ -158,10 +154,9 @@
   max-width: 200px;
 }
 
-/* Pledge */
 .pledge-card {
   background: linear-gradient(
-  /* Original gradient */  
+  /* First gradient */  
   /* 135deg, var(--uos-navy) 0%, var(--uos-navy-light) 100% */
 
   /*Best gradient attempt*/

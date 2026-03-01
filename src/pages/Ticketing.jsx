@@ -11,7 +11,6 @@ export default function Ticketing() {
 
   return (
     <div className="page ticketing">
-      {/* Header */}
       <section className="page-header">
         <div className="container">
           <h1 className="page-title">Ticketing & Prices</h1>
@@ -22,7 +21,6 @@ export default function Ticketing() {
         </div>
       </section>
 
-      {/* Filter */}
       <section className="section ticketing-content">
         <div className="container">
           <div className="filter-bar">
@@ -47,7 +45,6 @@ export default function Ticketing() {
             </div>
           </div>
 
-          {/* Operator Ticket Cards */}
           <div className="ticket-operators">
             {filtered.map((op) => (
               <div key={op.id} className="ticket-operator-card">
@@ -102,7 +99,6 @@ export default function Ticketing() {
             ))}
           </div>
 
-          {/* Student tip */}
           <div className="student-tip">
             <div className="student-tip-icon">💡</div>
             <div>

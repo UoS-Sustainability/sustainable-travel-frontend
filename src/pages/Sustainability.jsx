@@ -113,7 +113,6 @@ export default function Sustainability() {
 
   return (
     <div className="page sustainability">
-      {/* Header */}
       <section className="page-header sustainability-header">
         <div className="container">
           <h1 className="page-title">Sustainable Travel</h1>
@@ -126,7 +125,7 @@ export default function Sustainability() {
 
       <section className="section sustainability-content">
         <div className="container">
-          {/* Impact Banner */}
+          
           <div className="impact-banner">
             <div className="impact-stat">
               <span className="impact-number">75%</span>
@@ -144,7 +143,6 @@ export default function Sustainability() {
             </div>
           </div>
 
-          {/* Tips Grid */}
           <h2 className="section-title">How You Can Travel Greener</h2>
           <p className="section-subtitle">
             Simple changes that save money and reduce your carbon footprint.
@@ -174,7 +172,6 @@ export default function Sustainability() {
             ))}
           </div>
 
-          {/* Why it matters */}
           <div className="why-section">
             <div className="why-content">
               <h2>Why Sustainable Travel Matters</h2>
@@ -201,7 +198,6 @@ export default function Sustainability() {
             </div>
           </div>
 
-          {/* Pledge */}
           <div className="pledge-card">
             <h2>Make the Pledge</h2>
             <p>
@@ -253,7 +249,6 @@ export default function Sustainability() {
 // export default function Sustainability() {
 //   return (
 //     <div className="page sustainability">
-//       {/* Header */}
 //       <section className="page-header sustainability-header">
 //         <div className="container">
 //           <h1 className="page-title">Sustainable Travel</h1>
@@ -266,7 +261,6 @@ export default function Sustainability() {
 
 //       <section className="section sustainability-content">
 //         <div className="container">
-//           {/* Impact Banner */}
 //           <div className="impact-banner">
 //             <div className="impact-stat">
 //               <span className="impact-number">75%</span>
@@ -284,7 +278,6 @@ export default function Sustainability() {
 //             </div>
 //           </div>
 
-//           {/* Tips Grid */}
 //           <h2 className="section-title">How You Can Travel Greener</h2>
 //           <p className="section-subtitle">
 //             Simple changes that save money and reduce your carbon footprint.
@@ -303,7 +296,6 @@ export default function Sustainability() {
 //             ))}
 //           </div>
 
-//           {/* Why it matters */}
 //           <div className="why-section">
 //             <div className="why-content">
 //               <h2>Why Sustainable Travel Matters</h2>
@@ -330,7 +322,6 @@ export default function Sustainability() {
 //             </div>
 //           </div>
 
-//           {/* Pledge */}
 //           <div className="pledge-card">
 //             <h2>Make the Pledge</h2>
 //             <p>

@@ -53,7 +53,6 @@ const legendItems = [
 export default function TravelMap() {
   return (
     <div className="page travel-map">
-      {/* Header */}
       <section className="page-header">
         <div className="container">
           <h1 className="page-title">Interactive Map</h1>
@@ -66,7 +65,6 @@ export default function TravelMap() {
 
       <section className="section map-content">
         <div className="container">
-          {/* Legend */}
           <div className="map-legend">
             {legendItems.map((item) => (
               <div key={item.type} className="legend-item">
@@ -81,7 +79,6 @@ export default function TravelMap() {
             ))}
           </div>
 
-          {/* Map */}
           <div className="map-wrapper">
             <MapContainer
               center={SUNDERLAND_CENTER}
@@ -120,7 +117,6 @@ export default function TravelMap() {
             </MapContainer>
           </div>
 
-          {/* Key locations */}
           <div className="map-locations-grid">
             {mapLocations
               .filter((loc) => loc.type === 'campus')

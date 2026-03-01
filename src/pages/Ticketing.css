@@ -1,6 +1,5 @@
-/* Page Header */
 .page-header {
-  background: var(--uos-navy);
+  background: var(--uos-grey-black);
   /* background: linear-gradient(
   180deg,
   /*Best gradient attempt*/
@@ -9,21 +8,7 @@
     rgba(0, 105, 250, 0.65) 90% */
     /* rgba(50, 50, 50, 0.88) 100% */
 
-    /* Ligher blue attempt */
-    /*160deg,
-    rgba(45, 45, 55, 0.88) 0%,
-    rgba(0, 85, 170, 0.78) 100% */
-
-    /* 180deg,
-    rgba(60, 60, 60, 0.75) 0%,
-    rgba(0, 105, 250, 0.65) 100% */
-
-    /*Newest gradient attempt*/
-    /* rgba(0, 45, 95, 0.90) 0%,
-    rgba(0, 69, 139, 0.82) 55%,
-    rgba(0, 105, 250, 0.70) 100% */
-
-    /*Original gradient*/
+    /*First gradient*/
     /* rgba(13, 27, 62, 0.82) 0%,
     rgba(13, 27, 62, 0.72) 50%,
     rgba(13, 27, 62, 0.88) 100% */
@@ -48,7 +33,6 @@
   line-height: 1.7;
 }
 
-/* Filter Bar */
 .ticketing-content {
   padding-top: 40px;
 }
@@ -93,7 +77,6 @@
   color: var(--uos-white);
 }
 
-/* Ticket Cards */
 .ticket-operators {
   display: flex;
   flex-direction: column;
@@ -135,7 +118,6 @@
   letter-spacing: 0.5px;
 }
 
-/* Table */
 .ticket-table-wrapper {
   overflow-x: auto;
 }
@@ -181,7 +163,6 @@
   font-size: 0.85rem;
 }
 
-/* Footer */
 .ticket-operator-footer {
   padding: 20px 28px;
   background: var(--uos-grey-light);
@@ -216,7 +197,6 @@
   color: var(--uos-orange-dark);
 }
 
-/* Student Tip */
 .student-tip {
   display: flex;
   gap: 20px;

@@ -109,7 +109,6 @@ export default function Home() {
 
   return (
     <div className="page home">
-      {/* Hero */}
       <section className="hero">
         <div className="container hero-center">
           {/* <span className="hero-badge">University of Sunderland</span> */}
@@ -122,11 +121,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Search Panel — overlapping hero & content */}
       <div className="search-panel-wrapper">
         <div className="container">
           <div className="search-panel">
-            {/* Search Bar */}
             <div className="search-bar">
               <svg className="search-bar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8" />
@@ -149,7 +146,6 @@ export default function Home() {
               </button>
             </div>
 
-            {/* Filter Dropdowns */}
             <div className="filter-row">
               <div className="filter-select-group">
                 <label className="filter-select-label" htmlFor="filter-type">Transport</label>
@@ -209,7 +205,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Quick Links */}
       <section className="section quick-links-section">
         <div className="container">
           <div className="quick-links-grid">
@@ -225,7 +220,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Operators Overview */}
       <section className="section operators-section">
         <div className="container">
           <h2 className="section-title">Transport Operators</h2>
@@ -279,7 +273,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="section cta-section">
         <div className="container">
           <div className="cta-card">

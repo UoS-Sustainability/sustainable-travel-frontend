@@ -18,7 +18,8 @@ export default function Navbar() {
     <nav className="navbar" role="navigation" aria-label="Main navigation">
       <div className="container navbar-inner">
         <NavLink to="/" className="navbar-brand" onClick={() => setMenuOpen(false)}>
-          {/* <div className="navbar-logo">
+          {/* First Option used -  
+          <div className="navbar-logo">
             <span className="logo-icon">UoS</span>
           </div> */}
           <div className="navbar-logo">

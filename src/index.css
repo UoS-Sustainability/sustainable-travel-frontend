@@ -6,7 +6,6 @@
   --uos-orange-dark: #E65100;
   --uos-orange-light: #FF9800;
   /* --uos-navy: #0D1B3E; */
-  --uos-navy: #323232;
   /* --uos-navy-light: #152244; */
   --uos-navy-light: #0069FA;
   /* --uos-white: #FFFFFF; */
@@ -17,32 +16,26 @@
   --uos-grey-dark: #555555;
   --uos-green: #2E7D32;
   --uos-green-light: #E8F5E9;
+  --uos-grey-black: #323232;
   --uos-blue: #0069FAA6;
-  /* quick links border color try for uos-blue-grey*/
-  /* --uos-blue-grey: #3A4F87; */
 
-  /* Semantic */
   --bg-primary: var(--uos-white);
   --bg-secondary: var(--uos-grey-light);
-  --text-primary: var(--uos-navy);
+  --text-primary: var(--uos-grey-black);
   --text-secondary: var(--uos-grey-dark);
   --accent: var(--uos-orange);
   --accent-hover: var(--uos-orange-dark);
 
-  /* Spacing */
   --nav-height: 72px;
   --section-padding: 80px;
   --container-max: 1200px;
 
-  /* Transitions */
   --transition: 0.2s ease;
 
-  /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
   --shadow-lg: 0 8px 30px rgba(0,0,0,0.12);
 
-  /* Radius */
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;
@@ -117,7 +110,6 @@ button {
   line-height: 1.7;
 }
 
-/* Leaflet overrides */
 .leaflet-container {
   width: 100%;
   height: 100%;

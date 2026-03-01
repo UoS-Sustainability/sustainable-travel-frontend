@@ -4,7 +4,6 @@ import './Zones.css';
 export default function Zones() {
   return (
     <div className="page zones">
-      {/* Header */}
       <section className="page-header">
         <div className="container">
           <h1 className="page-title">Travel Zones</h1>
@@ -17,7 +16,6 @@ export default function Zones() {
 
       <section className="section zones-content">
         <div className="container">
-          {/* Zone Cards */}
           <div className="zones-grid">
             {zones.map((zone) => (
               <div
@@ -59,7 +57,6 @@ export default function Zones() {
             ))}
           </div>
 
-          {/* Zone Pricing Table */}
           <div className="zone-pricing-section">
             <h2 className="section-title">Metro Zone Pricing</h2>
             <p className="section-subtitle">
@@ -90,7 +87,6 @@ export default function Zones() {
             </div>
           </div>
 
-          {/* Key info */}
           <div className="zone-tips">
             <div className="zone-tip-card">
               <span className="zone-tip-icon">🎓</span>
