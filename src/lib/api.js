@@ -1,43 +1,72 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, "");
+
+if (!API_BASE_URL) {
+  throw new Error("VITE_API_BASE_URL is not set");
+}
 
 async function request(path) {
-  const res = await fetch(`${API_BASE_URL}${path}`);
+  const res = await fetch(`${API_BASE_URL}${path}`, {
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 
-  if (!res.ok) {
-    throw new Error(`API request failed: ${res.status}`);
+  let json = null;
+
+  try {
+    json = await res.json();
+  } catch {
+    throw new Error(`Invalid JSON response from ${path}`);
   }
 
-  const json = await res.json();
+  if (!res.ok) {
+    throw new Error(
+      json?.detail ||
+        json?.error ||
+        json?.message ||
+        `API request failed: ${res.status}`
+    );
+  }
+
   return json;
 }
 
 export async function getOperators(type) {
   const query = type ? `?type=${encodeURIComponent(type)}` : "";
-  return request(`/operators${query}`);
+  const json = await request(`/operators${query}`);
+  return json.data ?? [];
 }
 
 export async function getOperator(operatorId) {
-  return request(`/operators/${operatorId}`);
+  const json = await request(`/operators/${operatorId}`);
+  return json.data;
 }
 
 export async function getTickets() {
-  return request(`/tickets`);
+  const json = await request(`/tickets`);
+  return json.data ?? [];
 }
 
 export async function getTicketsByOperator(operatorId) {
-  return request(`/tickets/operator/${operatorId}`);
+  const json = await request(`/tickets/operator/${operatorId}`);
+  return json.data ?? [];
 }
 
 export async function getZones() {
-  return request(`/zones`);
+  const json = await request(`/zones`);
+  return json.data ?? [];
 }
 
 export async function getLocations() {
-  return request(`/locations`);
+  const json = await request(`/locations`);
+  return json.data ?? [];
 }
 
 export async function getNearbyLocations(lat, lng, radius = 5) {
-  return request(
-    `/locations/nearby?lat=${encodeURIComponent(lat)}&lng=${encodeURIComponent(lng)}&radius=${encodeURIComponent(radius)}`
+  const json = await request(
+    `/locations/nearby?lat=${encodeURIComponent(lat)}&lng=${encodeURIComponent(
+      lng
+    )}&radius=${encodeURIComponent(radius)}`
   );
+  return json.data ?? [];
 }
